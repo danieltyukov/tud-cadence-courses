@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 09/11/2017 15:13 (sjfnl050) $
 \o Sub version:		sub-version  s057 
-\o Arguments:		-unmapped -mpssession virtuoso108952 -mpshost ee4610.ewi.tudelft.nl 
+\o Arguments:		-unmapped -mpssession virtuoso84118 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/datyukov/tsmcBCD
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -12,13 +12,14 @@
 \o MPS service: map window
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(-14 20 1280 1371))
-\a nrResizeWindow(cdsLibManager list(1266 20 1280 1371))
-\a cdsLibManager->libListBox->value = "ee4610"
-\a cdsLibManager->libLineEdit->value = "ee4610"
-\a nrListItemAction(cdsLibManager->libListBox "ee4610" 0)
-\a cdsLibManager->cellListBox->value = "ass2adder"
-\a cdsLibManager->cellLineEdit->value = "ass2adder"
+\a nrResizeWindow(cdsLibManager list(-28 40 1280 1371))
+\a nrResizeWindow(cdsLibManager list(2202 600 1280 1371))
+\a cdsLibManager->libListBox->value = "tsmc18"
+\a cdsLibManager->libLineEdit->value = "tsmc18"
+\a cdsLibManager->libListBox->value = "Tutorial1_et4382"
+\a cdsLibManager->libLineEdit->value = "Tutorial1_et4382"
+\a cdsLibManager->cellListBox->value = "transtest"
+\a cdsLibManager->cellLineEdit->value = "transtest"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewListBox->value = nil
@@ -26,7 +27,7 @@
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
@@ -34,10 +35,10 @@
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ee4610"
-\a cdsLibManager->libLineEdit->value = "ee4610"
-\a cdsLibManager->cellListBox->value = "ass2adder"
-\a cdsLibManager->cellLineEdit->value = "ass2adder"
+\a cdsLibManager->libListBox->value = "Tutorial1_et4382"
+\a cdsLibManager->libLineEdit->value = "Tutorial1_et4382"
+\a cdsLibManager->cellListBox->value = "transtest"
+\a cdsLibManager->cellLineEdit->value = "transtest"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -45,8 +46,25 @@
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a _lmgrCloseIconify("cdsLibManager" 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Tutorial1_et4382"
+\a cdsLibManager->libLineEdit->value = "Tutorial1_et4382"
+\a cdsLibManager->cellListBox->value = "transtest"
+\a cdsLibManager->cellLineEdit->value = "transtest"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a nrSetWindowVisibility(cdsLibManager "hide")
