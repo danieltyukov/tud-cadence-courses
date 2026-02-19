@@ -1,6 +1,7 @@
 # Credentials and passwords
 password*.txt
 *password*.txt
+credentials.txt
 *.key
 *.pem
 
@@ -8,3 +9,5 @@ password*.txt
 *.dat
 *.psf/
 tsmcBCD/data/simdir/
+password_username.txt
+logins.txt
