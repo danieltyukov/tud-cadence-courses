@@ -208,6 +208,10 @@ At mi = 0: perfect cancellation (ratio = 0). At mi = 1: no benefit (ratio = 1).
 - At mi = 0: combined ripple visually near zero ✓
 - Ripple increases for higher mi values as expected ✓
 
+### Note on Single-Phase Data
+The individual phase current IT("/L1/PLUS") from the two-phase simulation is equivalent to the single-phase case (same L, same voltage waveform, same ripple). No separate single-phase schematic needed — the per-phase ripple IS the single-phase ripple.
+
 ### Screenshots (Part 3)
 - `part3_schematic.png` — Two-phase PWM schematic
 - `part3_inductor_currents.png` — Parametric sweep: individual + combined inductor currents vs mi
+- `part3_ripple_vs_mi.png` — Plot of pp ripple current vs modulation index (single-phase vs two-phase)

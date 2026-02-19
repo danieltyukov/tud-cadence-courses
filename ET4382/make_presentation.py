@@ -262,6 +262,7 @@ text_slide("Part 3: Key Observations", [
 
 image_slide("Part 3: Schematic", img("part3_schematic.png"), "Two-phase interleaved PWM + LC filter")
 image_slide("Part 3: Parametric Sweep Results", img("part3_inductor_currents.png"), "Inductor currents: Phase 1, Phase 2, and combined (mi = 0 to 0.9)")
+image_slide("Part 3: Ripple Current vs Modulation Index", img("part3_ripple_vs_mi.png"), "Single-phase vs two-phase: analytical curves verified by simulation")
 
 # Summary
 text_slide("Summary", [
