@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 09/11/2017 15:13 (sjfnl050) $
 \o Sub version:		sub-version  s057 
-\o Arguments:		-unmapped -mpssession virtuoso88972 -mpshost ee4610.ewi.tudelft.nl 
+\o Arguments:		-unmapped -mpssession virtuoso32246 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/datyukov/tsmcBCD
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -13,14 +13,23 @@
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrResizeWindow(cdsLibManager list(-28 40 1280 1371))
+\a nrResizeWindow(cdsLibManager list(-28 40 3840 2262))
+\a cdsLibManager->libListBox->value = "basic"
+\a cdsLibManager->libLineEdit->value = "basic"
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
 \a cdsLibManager->libListBox->value = "assignment1_a_et4382"
 \a cdsLibManager->libLineEdit->value = "assignment1_a_et4382"
 \a cdsLibManager->cellListBox->value = "lc_filter"
 \a cdsLibManager->cellLineEdit->value = "lc_filter"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->libListBox "assignment1_a_et4382" 0)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
@@ -50,4 +59,13 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(-28 40 1920 2262))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 64 3840 2262))
+\a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
