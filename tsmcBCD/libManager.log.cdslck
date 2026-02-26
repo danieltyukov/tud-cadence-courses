@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      datyukov
 HostName                       ee4610.ewi.tudelft.nl
-ProcessIdentifier              33158
-ProcessCreationTime_UTC        1772042034
-ProcessCreationTime_Readable   Wed Feb 25 18:53:54 2026 CET
+ProcessIdentifier              103552
+ProcessCreationTime_UTC        1772087866
+ProcessCreationTime_Readable   Thu Feb 26 07:37:46 2026 CET
 AppIdentifier                  /eda/cadence/2017-18/RHELx86/IC_6.1.7.715/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
 FilePathUsedToEditLock         /home/datyukov/tsmcBCD/libManager.log
-TimeEditLocked                 Wed Feb 25 18:55:19 2026 CET
+TimeEditLocked                 Thu Feb 26 07:37:52 2026 CET
