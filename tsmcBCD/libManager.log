@@ -1,72 +1,77 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 09/11/2017 15:13 (sjfnl050) $
 \o Sub version:		sub-version  s057 
-\o Arguments:		-unmapped -mpssession virtuoso115889 -mpshost ee4610.ewi.tudelft.nl 
+\o Arguments:		-mpssession virtuoso30142 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/datyukov/tsmcBCD
 \o 64-bit offsets
 \o Qt version: 		4.8.5
-\o changeWorkingDir("/home/datyukov/tsmcBCD") unnecessary.
-\o ddSetForcedLib("") unnecessary.
 \o Log file is "/home/datyukov/tsmcBCD/libManager.log".
 \o Opening libManager window.
-\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\o changeWorkingDir("/home/datyukov/tsmcBCD") unnecessary.
+\o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
+\a nrResizeWindow(cdsLibManager list(289 204 602 491))
 \o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(-14 20 1280 1371))
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1090 20 1280 1371))
-\a nrResizeWindow(cdsLibManager list(-14 20 2560 1371))
-\a cdsLibManager->libListBox->value = "assignment3_a_et4382_p1"
-\a cdsLibManager->libLineEdit->value = "assignment3_a_et4382_p1"
-\a cdsLibManager->cellListBox->value = "output_stage_btl"
-\a cdsLibManager->cellLineEdit->value = "output_stage_btl"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(2091 394 602 491))
+\a nrResizeWindow(cdsLibManager list(1266 20 1280 1371))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "assignment3_a_et4382_p1"
-\a cdsLibManager->libLineEdit->value = "assignment3_a_et4382_p1"
-\a cdsLibManager->cellListBox->value = "output_stage_btl"
-\a cdsLibManager->cellLineEdit->value = "output_stage_btl"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "testbench"
+\a cdsLibManager->cellLineEdit->value = "testbench"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "assignment2_a_et4382_p2"
-\a cdsLibManager->libLineEdit->value = "assignment2_a_et4382_p2"
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "lc_filter"
-\a cdsLibManager->cellLineEdit->value = "lc_filter"
+\a cdsLibManager->cellListBox->value = "testbench"
+\a cdsLibManager->cellLineEdit->value = "testbench"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = "assignment2_a_et4382_p1"
-\a cdsLibManager->libLineEdit->value = "assignment2_a_et4382_p1"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "lc_filter"
-\a cdsLibManager->cellLineEdit->value = "lc_filter"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "testbench"
+\a cdsLibManager->cellLineEdit->value = "testbench"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -74,48 +79,135 @@
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "assignment3_a_et4382_p1"
-\a cdsLibManager->libLineEdit->value = "assignment3_a_et4382_p1"
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a nrResizeWindow(cdsLibManager list(855 144 1280 1371))
-\a nrResizeWindow(cdsLibManager list(1260 12 1280 1371))
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libListBox->value = "assignment3_a_et4382_p1"
-\a cdsLibManager->libLineEdit->value = "assignment3_a_et4382_p1"
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "output_stage_btl_efficiency"
-\a cdsLibManager->cellLineEdit->value = "output_stage_btl_efficiency"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "assignment2_a_et4382_p1"
-\a cdsLibManager->libLineEdit->value = "assignment2_a_et4382_p1"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "lc_filter"
-\a cdsLibManager->cellLineEdit->value = "lc_filter"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "tsmc18"
+\a cdsLibManager->libLineEdit->value = "tsmc18"
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a nrResizeWindow(cdsLibManager list(1391 75 602 491))
+\a nrResizeWindow(cdsLibManager list(-279 289 602 491))
+\a nrResizeWindow(cdsLibManager list(1266 20 1280 1371))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "tsmc18"
+\a cdsLibManager->libLineEdit->value = "tsmc18"
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "ass1nand"
+\a cdsLibManager->cellLineEdit->value = "ass1nand"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "ass1nand_tb"
+\a cdsLibManager->cellLineEdit->value = "ass1nand_tb"
 \a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "ass1nand"
+\a cdsLibManager->cellLineEdit->value = "ass1nand"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "testbench"
+\a cdsLibManager->cellLineEdit->value = "testbench"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "ass1nand"
+\a cdsLibManager->cellLineEdit->value = "ass1nand"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
+\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "ass2xor"
+\a cdsLibManager->cellLineEdit->value = "ass2xor"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "ass2xor"
+\a cdsLibManager->cellLineEdit->value = "ass2xor"
+\a cdsLibManager->cellListBox->value = "ass2and"
+\a cdsLibManager->cellLineEdit->value = "ass2and"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
 \a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
