@@ -115,6 +115,10 @@ img = lambda name: os.path.join(DIR, name)
 # Title
 title_slide()
 
+# ===== Overview =====
+image_slide("Circuit Overview: NMOS Half-Bridge", img("OutputStage.png"),
+    "Class-D output stage with TSMC 0.18um BCD process (nld12_g5a_nbl_mac PowerFETs)")
+
 # ===== PART 1: PowerFET Sizing =====
 section_slide("Part 1", "PowerFET Sizing (R_ON <= 50 mOhm at 150C)")
 
