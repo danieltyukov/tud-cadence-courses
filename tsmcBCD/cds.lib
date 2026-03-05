@@ -1,2 +1,13 @@
 INCLUDE $tsmc018bcdg2/et4382/cds.lib.server
 DEFINE ee4610 /home/datyukov/tsmcBCD/ee4610
+DEFINE Tutorial1_et4382 /home/datyukov/tsmcBCD/Tutorial1_et4382
+DEFINE assignment1_a_et4382 /home/datyukov/tsmcBCD/assignment1_a_et4382
+#Removed by ddDeleteObj: DEFINE assignment2_a_et4382 /home/datyukov/tsmcBCD/assignment2_a_et4382
+#Removed by ddDeleteObj: DEFINE assignment1_a_et4382_p1 /home/datyukov/tsmcBCD/assignment1_a_et4382_p1
+#Removed by ddDeleteObj: DEFINE assignment2_a_et4382_p1 /home/datyukov/tsmcBCD/assignment2_a_et4382_p1
+#Removed by ddDeleteObj: DEFINE assignment2_a_et4382_part1 /home/datyukov/tsmcBCD/assignment2_a_et4382_part1
+#Removed by ddDeleteObj: DEFINE assignment1_a_et4382_part1 /home/datyukov/tsmcBCD/assignment1_a_et4382_part1
+DEFINE assignment2_a_et4382_p1 /home/datyukov/tsmcBCD/assignment2_a_et4382_p1
+DEFINE assignment1_a_et4382_p1 /home/datyukov/tsmcBCD/assignment1_a_et4382_p1
+DEFINE assignment2_a_et4382_p2 /home/datyukov/tsmcBCD/assignment2_a_et4382_p2
+DEFINE assignment3_a_et4382_p1 /home/datyukov/tsmcBCD/assignment3_a_et4382_p1
