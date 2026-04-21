@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 09/11/2017 15:15 (sjfnl050) $
 \o Sub version:		sub-version  s057 
-\o Arguments:		-display localhost:10.0 -mpssession virtuoso82761 -mpshost ee4610.ewi.tudelft.nl -namespace CDBA -cdslib /home/datyukov/tsmcBCD/cds.lib 
+\o Arguments:		-cdslib /home/datyukov/tsmcBCD/cds.lib -mpssession virtuoso33615 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/datyukov/tsmcBCD
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
@@ -8,10 +8,24 @@
 \a nrSetCurrentWindow(cdsLibEditor)
 \a nrListItemAction(cdsLibEditor->mainTable 0 0)
 \o Active cell: 0 0 "basic"
-\a nrResizeWindow(cdsLibEditor list(86 154 500 400))
-\a nrResizeWindow(cdsLibEditor list(2305 321 500 400))
+\a nrResizeWindow(cdsLibEditor list(36 70 500 400))
+\a nrResizeWindow(cdsLibEditor list(1302 436 500 400))
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/home/datyukov/tsmcBCD"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(0 0 531 513))
+\a nrSetCurrentWindow(newLibraryDialog)
+\o WARNING (CLE-222): Directory "/opt/et4382" doesn't exist. 
+\a nrSetWindowVisibility(errorDialog "show")
+\a newLibraryDialog->filePathComboBox->value = "/opt/et4382"
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(0 0 266 122))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(newLibraryDialog)
 \a nrSetCurrentWindow(cdsLibEditor)
-\a nrListItemAction(cdsLibEditor->mainTable 10 1)
-\o Active cell: 10 1 "/home/datyukov/tsmcBCD/assignment1_a_et4382_p1"
+\a cdsLibEditor->fileExitButton->value = t
 \a nrSetWindowVisibility(cdsLibEditor "hide")
 \a exit(0)
