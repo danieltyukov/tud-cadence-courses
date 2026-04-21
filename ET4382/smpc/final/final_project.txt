@@ -1,0 +1,32 @@
+SMPC Final Project 2026
+
+In this project, you will design a buck converter to generate a 1.2V supply from a 3.3V source to power an SoC. The supply ripple should be kept below 100mV peak-to-peak, and the switching node ringing peak value should be kept below 1.5V due to parasitic inductances. The SoC can consume a peak current of 10mA, but during sleep mode, it will consume 10µA. The peak efficiency should be at least 90%. It should also be able to reject an interference signal @ 2kHz from nearby by ~ 40dB. All components from 180 BCD process can be employed.
+
+Design considerations:
+
+Try to minimize the build-of-materials (BOM): try to use small external inductors and capacitors.
+
+Try to optimize the chip area for the same performance.
+
+Try to reach high peak efficiency and analyze efficiency over output power.
+
+Try to minimize power consumption with low load currents.
+
+Consider the impact of parasitic inductances, assume 2nH + 50mΩ for each connection wire from the chip to the PCB.
+
+You should address the following:
+
+System-level design: Selection of switching frequency, inductor, and capacitor, control loop strategy (you are free to choose a control loop other than a type-III compensator if you want).
+
+Selection and sizing of power FETs
+
+Gate driver design and considerations
+
+Efficiency analysis and optimization strategy
+
+Interference rejection strategy
+
+You will be graded based on your understanding and explanation of the aforementioned aspects of your design, not by how good the numbers look.
+
+All the simulation results should have white background and large enough fonts for easy readability.
+
