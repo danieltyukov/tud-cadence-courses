@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Mar 16 20:01:10 2025</timestamp>
+			<uuid>{3951d8e9-9eef-4234-83de-223d13fc66c0}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/waiyinlaulau/tsmcBCD/SCPC2025/HW1_A/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/waiyinlaulau/tsmcBCD/SCPC2025/HW1_A/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/waiyinlaulau/simulation/results/maestro/Interactive.0</psfdir>
+			<simdir>/home/waiyinlaulau/simulation/results/maestro/Interactive.0</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.1
+			<timestamp>Mar 16 20:07:45 2025</timestamp>
+			<uuid>{fd68688a-8a9e-47fc-905f-2cb20bdefb2e}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/waiyinlaulau/tsmcBCD/SCPC2025/HW1_A/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/waiyinlaulau/tsmcBCD/SCPC2025/HW1_A/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/waiyinlaulau/simulation/results/maestro/Interactive.1</psfdir>
+			<simdir>/home/waiyinlaulau/simulation/results/maestro/Interactive.1</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Mar 16 21:40:56 2025</timestamp>
+			<uuid>{ba7c9a7f-f093-4ec1-bf43-54b2a57e4f7c}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/waiyinlaulau/tsmcBCD/SCPC2025/HW1_A/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/waiyinlaulau/tsmcBCD/SCPC2025/HW1_A/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/waiyinlaulau/simulation/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>/home/waiyinlaulau/simulation/results/maestro/ExplorerRun.0</simdir>
+		</historyentry>
+	</history>
+</setupdb>

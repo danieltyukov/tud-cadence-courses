@@ -13,4 +13,4 @@ PASSWORD=$(grep "^password:" "${SCRIPT_DIR}/password_username.txt" | awk '{print
 "${SCRIPT_DIR}/mount-tsmcBCD.sh"
 
 # Connect to server and launch Cadence with automatic authentication
-sshpass -p "${PASSWORD}" ssh -X ${NETID}@${SERVER} "cd tsmcBCD && source sourceme && virtuoso &"
+sshpass -p "${PASSWORD}" ssh -X ${NETID}@${SERVER} "setenv LD_LIBRARY_PATH '' && cd tsmcBCD && source sourceme && virtuoso &"
