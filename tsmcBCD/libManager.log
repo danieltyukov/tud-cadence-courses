@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 09/11/2017 15:13 (sjfnl050) $
 \o Sub version:		sub-version  s057 
-\o Arguments:		-unmapped -mpssession virtuoso39042 -mpshost ee4610.ewi.tudelft.nl 
+\o Arguments:		-unmapped -mpssession virtuoso41678 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/datyukov/tsmcBCD
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -10,14 +10,18 @@
 \o Opening libManager window.
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
-\o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1266 20 1280 1371))
-\a nrResizeWindow(cdsLibManager list(-14 20 1280 1371))
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(1246 20 1280 1371))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "SMPC"
 \a cdsLibManager->libLineEdit->value = "SMPC"
-\a cdsLibManager->cellListBox->value = "buckconverter"
-\a cdsLibManager->cellLineEdit->value = "buckconverter"
+\a cdsLibManager->cellListBox->value = "SMPC1_partB"
+\a cdsLibManager->cellLineEdit->value = "SMPC1_partB"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewListBox->value = nil
@@ -25,7 +29,7 @@
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
@@ -35,13 +39,11 @@
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "SMPC"
 \a cdsLibManager->libLineEdit->value = "SMPC"
-\a cdsLibManager->cellListBox->value = "buckconverter"
-\a cdsLibManager->cellLineEdit->value = "buckconverter"
+\a cdsLibManager->cellListBox->value = "SMPC1_partB"
+\a cdsLibManager->cellLineEdit->value = "SMPC1_partB"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
