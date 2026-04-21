@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      datyukov
+HostName                       ee4610.ewi.tudelft.nl
+ProcessIdentifier              48756
+ProcessCreationTime_UTC        1776810842
+ProcessCreationTime_Readable   Wed Apr 22 00:34:02 2026 CEST
+AppIdentifier                  /eda/cadence/2017-18/RHELx86/IC_6.1.7.715/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /home/datyukov/tsmcBCD/.tmp_datyukov/.unique_number_0_file
+TimeEditLocked                 Wed Apr 22 00:34:53 2026 CEST

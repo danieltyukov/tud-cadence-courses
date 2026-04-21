@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      datyukov
 HostName                       ee4610.ewi.tudelft.nl
-ProcessIdentifier              41678
-ProcessCreationTime_UTC        1776808774
-ProcessCreationTime_Readable   Tue Apr 21 23:59:34 2026 CEST
+ProcessIdentifier              48756
+ProcessCreationTime_UTC        1776810851
+ProcessCreationTime_Readable   Wed Apr 22 00:34:11 2026 CEST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/datyukov/tsmcBCD/SMPC/SMPC1_partB/schematic/sch.oa.cdslck
-TimeEditLocked                 Wed Apr 22 00:00:16 2026 CEST
+FilePathUsedToEditLock         /home/datyukov/tsmcBCD/ClassDMiniProject1/SMPC1_partB/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Apr 22 00:35:26 2026 CEST

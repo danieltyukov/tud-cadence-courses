@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 09/11/2017 15:13 (sjfnl050) $
 \o Sub version:		sub-version  s057 
-\o Arguments:		-unmapped -mpssession virtuoso41678 -mpshost ee4610.ewi.tudelft.nl 
+\o Arguments:		-unmapped -mpssession virtuoso48756 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/datyukov/tsmcBCD
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -12,40 +12,58 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(1246 20 1280 1371))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "SMPC"
-\a cdsLibManager->libLineEdit->value = "SMPC"
+\a nrResizeWindow(cdsLibManager list(-14 20 1280 1371))
+\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/ClassDMiniProject1/cdsinfo.tag line 10.
+\a nrResizeWindow(cdsLibManager list(1266 20 1280 1371))
+\a cdsLibManager->libListBox->value = "ClassDMiniProject1"
+\a cdsLibManager->libLineEdit->value = "ClassDMiniProject1"
 \a cdsLibManager->cellListBox->value = "SMPC1_partB"
 \a cdsLibManager->cellLineEdit->value = "SMPC1_partB"
+\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/ClassDMiniProject1/cdsinfo.tag line 10.
+\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/ClassDMiniProject1/cdsinfo.tag line 10.
 \a cdsLibManager->viewListBox->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "SMPC"
-\a cdsLibManager->libLineEdit->value = "SMPC"
+\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/ClassDMiniProject1/cdsinfo.tag line 10.
+\a cdsLibManager->libListBox->value = "ClassDMiniProject1"
+\a cdsLibManager->libLineEdit->value = "ClassDMiniProject1"
 \a cdsLibManager->cellListBox->value = "SMPC1_partB"
 \a cdsLibManager->cellLineEdit->value = "SMPC1_partB"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "SMPC1_partB"
+\a cdsLibManager->cellLineEdit->value = "SMPC1_partB"
+\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/ClassDMiniProject1/cdsinfo.tag line 10.
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/ClassDMiniProject1/cdsinfo.tag line 10.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
