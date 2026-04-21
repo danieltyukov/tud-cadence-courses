@@ -1,0 +1,17 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 09/11/2017 15:15 (sjfnl050) $
+\o Sub version:		sub-version  s057 
+\o Arguments:		-display localhost:10.0 -mpssession virtuoso82761 -mpshost ee4610.ewi.tudelft.nl -namespace CDBA -cdslib /home/datyukov/tsmcBCD/cds.lib 
+\o Working Directory:	ee4610.ewi.tudelft.nl:/home/datyukov/tsmcBCD
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "basic"
+\a nrResizeWindow(cdsLibEditor list(86 154 500 400))
+\a nrResizeWindow(cdsLibEditor list(2305 321 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 10 1)
+\o Active cell: 10 1 "/home/datyukov/tsmcBCD/assignment1_a_et4382_p1"
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

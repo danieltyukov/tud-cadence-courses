@@ -1,0 +1,101 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = SCPC2025
+	Cell         = HW1_A
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = ExplorerRun.0
+	Results DB   = /home/datyukov/tsmcBCD/SCPC2025/HW1_A/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/datyukov/tsmcBCD/data/simdir/datyukov/simulation/SCPC2025/HW1_A/maestro/results/maestro/ExplorerRun.0/1/SCPC_HW1_A_1
+	Results Loc  = /home/datyukov/tsmcBCD/data/simdir/datyukov/simulation/SCPC2025/HW1_A/maestro/results/maestro
+	Project Dir  = /home/datyukov/tsmcBCD/data/simdir/datyukov/simulation
+	Setup DB loc = /home/datyukov/tsmcBCD/SCPC2025/HW1_A/maestro
+	File Encoding = 0
+
+
+*Info*    The simulation mode in Spectre has been changed from
+          'interactive' to 'batch' mode because ICLP.
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (2 1) on testbench [ SCPC_HW1_A_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var CF = "1.33n"
+Setting var COUT = "80n"
+Setting var INITIAL = "0.8"
+Setting var M = "0.25"
+Setting var R = "11.31"
+Setting var f = "200M"
+Setting var iout = "10m"
+Setting temp(T) = 27
+Setting var tfr = "50p"
+Setting var tnonov = "50p"
+Setting var tsettle = "7u"
+Setting var tstop = "15u"
+Setting var vin = "4"
+
+*Info*    Netlist Directory =
+          /home/datyukov/tsmcBCD/data/simdir/datyukov/simulation/SCPC2025/HW1_A/maestro/results/maestro/ExplorerRun.0/1/SCPC_HW1_A_1/netlist
+
+
+*Info*    Data Directory    =
+          /home/datyukov/tsmcBCD/data/simdir/datyukov/simulation/SCPC2025/HW1_A/maestro/results/maestro/ExplorerRun.0/1/SCPC_HW1_A_1
+
+
+*Info*    Creating Netlist for Point ID (2 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar 19 12:10:02 2026
+End netlisting Mar 19 12:10:02 2026
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ SCPC_HW1_A_1 ] for Point
+          ID (2 1).
+
+Delete psf data in /home/datyukov/tsmcBCD/data/simdir/datyukov/simulation/SCPC2025/HW1_A/maestro/results/maestro/ExplorerRun.0/1/SCPC_HW1_A_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (2 1) on testbench [ SCPC_HW1_A_1
+          ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.
