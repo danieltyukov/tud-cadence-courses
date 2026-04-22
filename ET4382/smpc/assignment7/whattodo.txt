@@ -1,0 +1,65 @@
+  So why bother with bucklinear first?                                
+                                                                      
+  Because debugging a broken compensator inside the switching         
+  SMPC2_work is painful:
+  - Each switching tran run = 5-30 min depending on how long you sim  
+  - You can't do AC analysis on a switching circuit (no LTI           
+  linearisation)                                           
+  - If PM = 20° you can't tell if the bug is in the opamp, the        
+  divider, the V_saw peak, or a wrong C value                 
+                                                                      
+  bucklinear replaces the entire switching chain with one VCVS of gain
+   1.25 (= V_in/V_saw). You can run AC/stb in 10 seconds and get a    
+  clean Bode plot. Verify PM=67° there FIRST. Then you know the
+  compensator is mathematically correct, and any issue in the         
+  switching sim is a wiring/rail/noise problem — much easier to
+  isolate.
+
+  The correct workflow (3 phases)                                     
+  
+  Phase A — Compensator verification (30 min, throwaway):             
+  1. Open tutorial bucklinear cell.
+  2. Set its variables to our ass-7 point (Vbat=5, Vsaw=4 → VCVS      
+  gain=1.25, L=10u, C=1u, RL=4, Vout_target=1.8, D=0.36).       
+  3. Populate compensator cell with R1=100k, R2=700k, R3=910Ω,        
+  C1=114fF, C2=45.5pF, C3=53pF, R_top=8k, R_bot=10k, V_ref=1. 
+  4. Insert iprobe in the loop, run stb.                              
+  5. Verify: |L(200Hz)| ≈ 41.7 dB, f_c ≈ 518 kHz, PM ≈ 67°. If any is
+  off → fix the compensator values here, NOT in SMPC2_work.           
+                                                                      
+  Phase B — Modify SMPC2_work (1-2 h, this is the ass-7 build):       
+  6. Open SMPC2_work. Delete V1.                                      
+  7. Place R_top (8k) and R_bot (10k) forming divider Vout→FB→gnd.    
+  8. Instance the compensator cell (same values you just verified in  
+  Phase A) with FB → minus_input, V_ref → plus_input, compensator_out 
+  = V_comp.                                                           
+  9. Place new V_saw vpulse (v1=0, v2=4, tr=499n, tf=1n, period=500n).
+  10. Place comparator (ahdlLib/comparator or analogLib vcomp).       
+  vplus=V_comp, vminus=V_saw, vout → input net.                       
+  11. Sanity check (CIW + schematic Check & Save).                    
+                                                                      
+  Phase C — Closed-loop sims on SMPC2_work (this is what you submit   
+  for ass-7):                                                         
+  12. Startup transient: tran 0 500µ conservative. Plot Vout — should 
+  settle to 1.8 V within ~100 µs, no oscillation.                     
+  13. Load step: inject a pulse current source in parallel with R0,
+  step 0.45A → 0.9A (= 1.8V/4Ω vs 1.8V/2Ω) at t=300µs. Expected ΔVout 
+  < 100 mV, recovery < 50 µs.
+  14. Line disturbance / PSRR: add a small-signal AC component to V0  
+  (battery): V0 = 5 + 0.2·sin(2π·200·t). Verify |Vout_200Hz_ripple| / 
+  0.2V ≤ −40 dB (i.e. Vout ripple at 200 Hz ≤ 2 mV).
+  15. Steady-state efficiency (if time): measure P_in =               
+  V_bat·I_bat_avg, P_out = V_out²/R_L, η = P_out/P_in. Expect η ≈     
+  92-95% at 4Ω load.
+                                                                      
+  Sims in Phase C = ass-7 deliverable. Those 4 measurements (+ the    
+  PM/fc Bode from Phase A) are exactly what the assignment grades you
+  on.                                                                 
+                  
+  ---
+  TL;DR: Phase A is disposable scaffolding to de-risk the compensator.
+   Phase B is the actual ass-7 schematic build inside SMPC2_work.     
+  Phase C is the simulation deliverable. Does this clear up the
+  separation? Want me to write assignment7_execution.md with the exact
+   step-by-step + screenshot checklist so you can work through it
+  alongside Cadence?
