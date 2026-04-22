@@ -429,3 +429,7 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)

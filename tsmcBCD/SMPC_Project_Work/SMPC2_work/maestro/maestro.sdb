@@ -31,22 +31,22 @@
 				</tooloptions>
 				<vars>
 					<var>C
-						<value>6.6n</value>
+						<value>1u</value>
 					</var>
 					<var>D
-						<value>0.37</value>
+						<value>0.36</value>
 					</var>
 					<var>L
 						<value>10u</value>
 					</var>
 					<var>RL
-						<value>120</value>
+						<value>4</value>
 					</var>
 					<var>deadtime
 						<value>10n</value>
 					</var>
 					<var>fsw
-						<value>4M</value>
+						<value>2M</value>
 					</var>
 					<var>NmosL
 						<value>600n</value>
@@ -61,7 +61,7 @@
 						<value>500u</value>
 					</var>
 					<var>Von
-						<value>3.3</value>
+						<value>5</value>
 					</var>
 					<var>PowerNmosL
 						<value>600n</value>
