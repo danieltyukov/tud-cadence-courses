@@ -1,493 +1,216 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 09/11/2017 15:13 (sjfnl050) $
 \o Sub version:		sub-version  s057 
-\o Arguments:		-unmapped -mpssession virtuoso104121 -mpshost ee4610.ewi.tudelft.nl 
+\o Arguments:		-mpssession virtuoso30142 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/datyukov/tsmcBCD
 \o 64-bit offsets
 \o Qt version: 		4.8.5
-\o changeWorkingDir("/home/datyukov/tsmcBCD") unnecessary.
-\o ddSetForcedLib("") unnecessary.
 \o Log file is "/home/datyukov/tsmcBCD/libManager.log".
 \o Opening libManager window.
-\a nrSetWindowVisibility(cdsLibManager "show")
-\o MPS service: map window
-\o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1246 20 1280 1371))
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->libListBox->value = "SMPC_Project_Work"
-\a cdsLibManager->libLineEdit->value = "SMPC_Project_Work"
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->cellListBox->value = "SMPC2_work"
-\a cdsLibManager->cellLineEdit->value = "SMPC2_work"
+\o changeWorkingDir("/home/datyukov/tsmcBCD") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\a nrResizeWindow(cdsLibManager list(289 204 602 491))
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(-14 20 1280 1371))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2091 394 602 491))
+\a nrResizeWindow(cdsLibManager list(1266 20 1280 1371))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "testbench"
+\a cdsLibManager->cellLineEdit->value = "testbench"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "testbench"
+\a cdsLibManager->cellLineEdit->value = "testbench"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->cellListBox 1 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->libListBox->value = "SMPC_Project_Work"
-\a cdsLibManager->libLineEdit->value = "SMPC_Project_Work"
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->cellListBox->value = "SMPC2_work"
-\a cdsLibManager->cellLineEdit->value = "SMPC2_work"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "bucklinear"
-\a cdsLibManager->cellLineEdit->value = "bucklinear"
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "testbench"
+\a cdsLibManager->cellLineEdit->value = "testbench"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "tsmc18"
+\a cdsLibManager->libLineEdit->value = "tsmc18"
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a nrResizeWindow(cdsLibManager list(1391 75 602 491))
+\a nrResizeWindow(cdsLibManager list(-279 289 602 491))
+\a nrResizeWindow(cdsLibManager list(1266 20 1280 1371))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "tsmc18"
+\a cdsLibManager->libLineEdit->value = "tsmc18"
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "ass1nand"
+\a cdsLibManager->cellLineEdit->value = "ass1nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "ass1nand_tb"
+\a cdsLibManager->cellLineEdit->value = "ass1nand_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "ass1nand"
+\a cdsLibManager->cellLineEdit->value = "ass1nand"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "testbench"
+\a cdsLibManager->cellLineEdit->value = "testbench"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "ass1nand"
+\a cdsLibManager->cellLineEdit->value = "ass1nand"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
+\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "ass2xor"
+\a cdsLibManager->cellLineEdit->value = "ass2xor"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->cellListBox->value = "ass2xor"
+\a cdsLibManager->cellLineEdit->value = "ass2xor"
+\a cdsLibManager->cellListBox->value = "ass2and"
+\a cdsLibManager->cellLineEdit->value = "ass2and"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
+\a cdsLibManager->FileNewCVButton->value = t
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->libListBox->value = "SMPC_Project_Work"
-\a cdsLibManager->libLineEdit->value = "SMPC_Project_Work"
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->cellListBox->value = "bucklinear"
-\a cdsLibManager->cellLineEdit->value = "bucklinear"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = "ee4610"
+\a cdsLibManager->libLineEdit->value = "ee4610"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "buckvoltagemode"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 4 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->libListBox->value = "SMPC_Project_Work"
-\a cdsLibManager->libLineEdit->value = "SMPC_Project_Work"
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->cellListBox->value = "buckvoltagemode"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "compensator_tb"
-\a cdsLibManager->cellLineEdit->value = "compensator_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "Tutorial5"
-\a cdsLibManager->libLineEdit->value = "Tutorial5"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "compensator_tb"
-\a cdsLibManager->cellLineEdit->value = "compensator_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "compensator"
-\a cdsLibManager->cellLineEdit->value = "compensator"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 55 180 2 "compensator")
-\a cdsLibManager->copySimpleButton->value = t
-\a basicCopyForm->CategoryCellsEdit->value = "*"
-\a basicCopyForm->CellsSkipLibraries->value = t
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->ViewsSkipLibraries->value = t
-\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CopyFromLibrary->value = "SCPC2025"
-\a basicCopyForm->CopyToLibrary->value = "SCPC2025"
-\a basicCopyForm->CopyFromLibrary->value = "Tutorial5"
-\a basicCopyForm->CopyFromCell->value = "compensator"
-\a basicCopyForm->CopyToLibrary->value = "Tutorial5"
-\a basicCopyForm->CopyToCell->value = "compensator"
-\a basicCopyForm->CellsViewsToCopy->value = "schematic symbol"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "SCPC2025 SMPC SMPC_Project_Work Tutorial1_et4382 ahdlLib ahdlLib_updated analogLib assignment1_a_et4382 assignment1_a_et4382_p1 assignment2_a_et4382_p1 assignment2_a_et4382_p2 assignment3_a_et4382_p1 basic cdsDefTechLib ee4610 tsmc18"
-\a basicCopyForm->ViewsSkipLibrariesEdit->value = "SCPC2025 SMPC SMPC_Project_Work Tutorial1_et4382 ahdlLib ahdlLib_updated analogLib assignment1_a_et4382 assignment1_a_et4382_p1 assignment2_a_et4382_p1 assignment2_a_et4382_p2 assignment3_a_et4382_p1 basic cdsDefTechLib ee4610 tsmc18"
-\a nrSetWindowVisibility(basicCopyForm "show")
-\a nrSetCurrentWindow(basicCopyForm)
-\a nrResizeWindow(basicCopyForm list(1654 397 444 642))
-\a basicCopyForm->CopyToLibrary->value = "SMPC_Project_Work"
-\a basicCopyForm->OK->value = t
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o Beginning simple copy to library "SMPC_Project_Work".
-\o Processing files to be copied...
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(0 0 274 133))
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o ERROR (CLM-173): One or more of the following problems have occurred:\n      1. The source file does not exist.\n      2. A destination file will be overwritten.\n      3. A destination file is checked out.\n      4. A destination file is opened for edit.\n      5. A destination file conflicts with another.\n      6. A source library file is not valid in a different library.\n      7. A source OpenAccess cellview master file has zero size.
-\a nrSetWindowVisibility(copyProblemsDialog "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(copyProblemsDialog)
-\a nrResizeWindow(copyProblemsDialog list(0 0 825 441))
-\a copyProblemsDialog->OK->value = t
-\a nrSetCurrentWindow(basicCopyForm)
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(1749 432 274 133))
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "SCPC2025 SMPC SMPC_Project_Work Tutorial1_et4382 ahdlLib ahdlLib_updated analogLib assignment1_a_et4382 assignment1_a_et4382_p1 assignment2_a_et4382_p1 assignment2_a_et4382_p2 assignment3_a_et4382_p1 basic cdsDefTechLib ee4610 tsmc18"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "SMPC_Project_Work"
-\a cdsLibManager->libLineEdit->value = "SMPC_Project_Work"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "compensator"
-\a cdsLibManager->cellLineEdit->value = "compensator"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "compensator_tb"
-\a cdsLibManager->cellLineEdit->value = "compensator_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "compensator"
-\a cdsLibManager->cellLineEdit->value = "compensator"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 5 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->libListBox->value = "SMPC_Project_Work"
-\a cdsLibManager->libLineEdit->value = "SMPC_Project_Work"
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\o  Error (cif): 'syntax error' CDSLIBRARY line in cdsinfo.tag file : /home/datyukov/tsmcBCD/SMPC_Project_Work/cdsinfo.tag line 10.
-\a cdsLibManager->cellListBox->value = "compensator"
-\a cdsLibManager->cellLineEdit->value = "compensator"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "Tutorial5"
-\a cdsLibManager->libLineEdit->value = "Tutorial5"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "compensator"
-\a cdsLibManager->cellLineEdit->value = "compensator"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "bucklinear"
-\a cdsLibManager->cellLineEdit->value = "bucklinear"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "bucklinear_1"
-\a cdsLibManager->cellLineEdit->value = "bucklinear_1"
-\a cdsLibManager->cellListBox->value = "buckvoltagemode"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode"
-\a cdsLibManager->cellListBox->value = "buckvoltagemode2"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode2"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "buckvoltagemode_1"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode_1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "buckvoltagemode2"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode2"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "buckvoltagemode"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "buckvoltagemode2"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode2"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "buckvoltagemode_1"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode_1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "compensator"
-\a cdsLibManager->cellLineEdit->value = "compensator"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellListBox->value = "compensator1"
-\a cdsLibManager->cellLineEdit->value = "compensator1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "compensator2"
-\a cdsLibManager->cellLineEdit->value = "compensator2"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "compensator_tb"
-\a cdsLibManager->cellLineEdit->value = "compensator_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "doubleinverter"
-\a cdsLibManager->cellLineEdit->value = "doubleinverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->cellLineEdit->value = "inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "linear"
-\a cdsLibManager->cellLineEdit->value = "linear"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "nonoverlappingclock"
-\a cdsLibManager->cellLineEdit->value = "nonoverlappingclock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "osc"
-\a cdsLibManager->cellLineEdit->value = "osc"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "push_pull"
-\a cdsLibManager->cellLineEdit->value = "push_pull"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "test"
-\a cdsLibManager->cellLineEdit->value = "test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "SMPC_Project_Work"
-\a cdsLibManager->libLineEdit->value = "SMPC_Project_Work"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "compensator"
-\a cdsLibManager->cellLineEdit->value = "compensator"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "compensator_tb"
-\a cdsLibManager->cellLineEdit->value = "compensator_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "bucklinear"
-\a cdsLibManager->cellLineEdit->value = "bucklinear"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state2"
-\a cdsLibManager->viewLineEdit->value = "spectre_state2"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state2"
-\a cdsLibManager->viewLineEdit->value = "spectre_state2"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "spectre_state2"
-\a cdsLibManager->viewLineEdit->value = "spectre_state2"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "spectre_state2"
-\a cdsLibManager->viewLineEdit->value = "spectre_state2"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "spectre_state2"
-\a cdsLibManager->viewLineEdit->value = "spectre_state2"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state2"
-\a cdsLibManager->viewLineEdit->value = "spectre_state2"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "buckvoltagemode"
-\a cdsLibManager->cellLineEdit->value = "buckvoltagemode"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state"
-\a cdsLibManager->viewLineEdit->value = "spectre_state"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)
